@@ -11,11 +11,9 @@ The Agentic Librarian prevents AI hallucinations and stale facts from infiltrati
 ## 🏛️ Architecture Overview
 The system uses a Medallion Storage Pipeline to ensure raw data undergoes strict review before becoming trusted ground truth:
 
-* 
 * 🟫 Bronze (Raw / Ingestion): Unmodified source materials (assumed dirty).
 * 🥈 Silver (Review / Proposals): AI-generated candidate state updates and schema-conformant proposals.
 * 🥇 Gold (Trusted Wiki): Human-vetted, highly-interlinked knowledge pages.
-* 
 
 The workflow separates deterministic code operations (preflight hashing, validation, routing, and git checkpointing) from bounded semantic drafting and human editorial gates.
 ## 📂 Vault Layout & Core Primitives
