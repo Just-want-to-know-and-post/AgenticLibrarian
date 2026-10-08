@@ -23,14 +23,3 @@ The repository organizes files into schema/, raw/ (Bronze), review/ (SILVER), an
 ## 🗺️ Build Roadmap & Acceptance Criteria
 The implementation spans from Phase 0 (Foundations) through Phase 3 (Verification - Current Target) to final integration, requiring system impenetrability, environment sandbox permissions enforcement, and execution idempotence.
 For the complete configuration, directory layout templates, and full markdown schemas, please refer to the documentation blocks in the referenced source materials.
-------------------------------
-## 🛠️ Next Implementation Options
-Now that your core documentation is locked in, how would you like to kick off the development phase?
-
-* 
-* We can write the concrete JSON schema spec for the Validator script to run against.
-* We can write the initial shell or Python stub for the Librarian CLI tool (preflight and propose arguments).
-* We can focus on the Git Checkpoint engine code to handle the automated commits and rollbacks.
-* 
-
-
